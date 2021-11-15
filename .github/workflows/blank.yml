@@ -6,7 +6,8 @@ on:
     branches: [ main ]
     types: [closed]
     
-concurrency: testing
+concurrency: 
+  group: testing
 
 jobs:
 
